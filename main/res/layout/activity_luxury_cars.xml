@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LuxuryCars">
+
+    <Button
+        android:id="@+id/btn_volverAtras4"
+        android:layout_width="152dp"
+        android:layout_height="47dp"
+        android:text="Volver atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txt_luxury"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luxury Cars"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="157dp"
+        android:layout_height="187dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:onClick="imagebtnFordF150"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134"
+        app:srcCompat="@drawable/_021_ford_f_150" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="157dp"
+        android:layout_height="187dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:onClick="imagebtnAudiRs5"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134"
+        app:srcCompat="@drawable/audi_rs5" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="157dp"
+        android:layout_height="187dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:onClick="imagebtnBMWX6M"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52"
+        app:srcCompat="@drawable/bmw_x6_m" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="157dp"
+        android:layout_height="187dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:onClick="imagebtnFerrariSF90Stradale"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52"
+        app:srcCompat="@drawable/ferrari_sf90_stradale" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="157dp"
+        android:layout_height="187dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:onClick="imagebtnG63AMG"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893"
+        app:srcCompat="@drawable/g63_amg" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="157dp"
+        android:layout_height="187dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:onClick="imagebtnMcLaren720S"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893"
+        app:srcCompat="@drawable/mclaren_720s" />
+
+    <ImageButton
+        android:id="@+id/imageBtnCasa4"
+        android:layout_width="68dp"
+        android:layout_height="43dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/house3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

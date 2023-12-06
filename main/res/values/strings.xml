@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Final_Proyect</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="click_y_logeate">Click y logeate</string>
+    <string name="click_y_registrate">click_y_registrate</string>
+    <string name="logout">logout</string>
+    <string name="click_aqui_para_registrarte">click aqui para registrarte</string>
+    <string name="click_aqui_para_logearte">click aqui para logearte</string>
+    <string name="volver_al_logeo">volver al logeo</string>
+    <string name="volver_al_login">volver_al_login</string>
+</resources>
